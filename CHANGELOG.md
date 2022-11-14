@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2022-11-14)
+
+
+### Features
+
+* **init:** contract release ([f3d2e3e](https://github.com/Blockstairs/veridca-smart-contract/commit/f3d2e3e57a718bc84e6ccd65990e0bfe8f2cfb07))
+
 ## [1.3.0](https://github.com/MarioJuniorPro/veridca-registry/compare/v1.2.0...v1.3.0) (2022-10-12)
 
 ### Features
