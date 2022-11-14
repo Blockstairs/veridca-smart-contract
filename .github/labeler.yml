@@ -1,0 +1,26 @@
+# Add 'repo' label to any root file changes
+repo:
+- '*'
+
+test:
+- test/*
+
+docs:
+- docs/*
+
+# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+source:
+- any: ['src/**/*', '!src/docs/*']
+
+# Add 'frontend` label to any change to *.js files as long as the `main.js` hasn't changed
+contract:
+- any: ['contracts/../*.sol', '!contracts/../*Mock*.sol']
+
+hardhat:
+- any: ['hardhat.config.ts', 'scripts/*']
+
+deps:
+- any: ['package-lock.json']
+
+ci:
+- any: ['.github/*']

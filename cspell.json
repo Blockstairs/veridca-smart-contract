@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [
+    "Blockstairs",
+    "docgen",
+    "dodoc",
+    "github",
+    "IERC",
+    "inheritdoc",
+    "Initializable",
+    "ipfs",
+    "IPFS",
+    "keccak",
+    "nomicfoundation",
+    "nomiclabs",
+    "Pausable",
+    "POLYGONSCAN",
+    "primitivefi",
+    "radash",
+    "reviewdog",
+    "sourcify",
+    "surya",
+    "typechain",
+    "veridca",
+    "Veridca"
+  ],
+  "ignoreWords": [],
+  "import": [],
+  "enableFiletypes": ["markdown", "solidity"]
+}

@@ -1,0 +1,35 @@
+
+# Dependency directory
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# local env variables
+.env
+
+# docs artifacts
+docs/modules/api
+
+# only used to package @openzeppelin/contracts
+contracts/build/
+contracts/README.md
+
+# temporary artifact from solidity-coverage
+allFiredEvents
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+coverage
+coverage.json
+
+#Hardhat files
+cache
+artifacts
+
+# Mist
+tmp/*
+!tmp/README.md
+docker/data
+dist
+typechain-types

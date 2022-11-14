@@ -1,0 +1,17 @@
+{
+  "**/*.{ts,js,json,sol,md}": [
+    "npm run format:fix"
+  ],
+  "**/*.ts?(x)": [
+    "npm run lint:ts:fix",
+    "bash -c 'npm run check-types'",
+    "bash -c 'npm run test'"
+  ],
+  "contracts/*.sol": [
+    "bash -c 'npm run export:abi'",
+    "bash -c 'npm run compile'",
+    "bash -c 'npm run docs'",
+    "bash -c 'npm run gas-report'",
+    "npm run lint:sol:fix"
+  ]
+}
